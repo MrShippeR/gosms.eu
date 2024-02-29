@@ -47,7 +47,7 @@ function SMSsendMessage($phone, $content) {
 }
 
 function SMSgetAcessToken() {
-	$client_id = '28820_2lzhoct4ljkkck44w8w480sgw800c84ckwkksg0saggw4gk4cs'; // just example, same format, this is not really valid credentials,
+	$client_id = '28820_2lzhoct4ljkkck44w8w480sgw800c84ckwkksg0saggw4gk4cs'; // just example, same format, this is not really valid credentials
 	$secret = '49dqebv4hr0ggog8kkskgokclgw80cog4k444gcc8gswww84g0'; // example
 	$url = "https://app.gosms.eu/oauth/v2/token";
 	$post_data = array( 'client_id' => $client_id, 'client_secret' => $secret, 'grant_type' => 'client_credentials');
